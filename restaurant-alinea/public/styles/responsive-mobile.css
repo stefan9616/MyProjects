@@ -1,0 +1,341 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap);
+
+
+@media(width <=700px){
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: url(/images/woodd.jpg);
+        
+    }
+
+    header {
+        font-family: Inter;
+    }
+
+    /* nav {
+        background: linear-gradient(#868383, #edeaea);
+        display: flex;
+        justify-content: end;
+        padding: 50px 50px;
+    } */
+
+    .logo img {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        filter: opacity(95%);
+    }
+
+    .heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 450px;
+    }
+    .heading p {
+        font-family: Inter, Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 10px 35px;
+
+    }
+
+    .main-heading-name {
+        font-family:"Euphoria Script", cursive;
+        font-weight: 500;
+        letter-spacing: 4px;
+        font-size: 70px;
+        padding-top: 20px;
+    }
+
+    .second-heading-name {
+        font-family: Inter;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        color: #000;
+        text-transform: uppercase;
+
+    }
+
+    /* nav a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #000;
+        font-size: 1.7em;
+        font-weight: 600;
+        padding: 10px 20px;
+        border-radius: 25px;
+    }
+
+    nav a:hover {
+        background: red;
+        color: white
+    } */
+
+    
+
+    
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        background: #847f7f;
+        text-align: center;
+    }
+
+    .footer p {
+        color: White;
+        font-size: 16px;
+        font-family: Inter;
+        font-weight: 400;
+        padding: 5px;
+    }
+    #contacts{
+        color:#FFF;
+        border-bottom: 1px solid white;
+
+    }
+
+    .footer svg {
+        padding: 0px 20px;
+        
+    }
+
+    .footer .info {
+        margin-top: 30px;
+    }
+
+    .map {
+        display: flex;
+    }
+
+    .location {
+        width: 300px;
+        height: 250px;
+        align-self: center;
+        margin-bottom: 50px;
+    }
+
+    .menu-header {
+        display: flex;
+        justify-content: center;
+        background: url(/images/menuimage.jpg);
+        background-size:cover;
+        height: 10em;
+    }
+
+    .menu-header h1 {
+        color:#FFF;
+        font-weight: 900;
+        font-family: Inter;
+        letter-spacing: 1px;
+        font-size: 30px;
+        align-self:flex-end;
+    }
+
+    .category {
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .category a {
+
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: Inter, Georgia, 'Times New Roman', Times, serif;
+        color: #000;
+        border-radius: 25px;
+        font-weight: bold;
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .category a:hover {
+        background: red;
+        color: #FFF;
+
+    }
+
+    .main-menu-pages {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .menu-category {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 30px;
+
+        font-family: Inter, Georgia, 'Times New Roman', Times, serif;
+    }
+
+
+    .menu-category-heading {
+        font-size: 25px;
+        border-bottom: 3px solid rgb(62, 57, 57);
+        background: linear-gradient(#706e6e, #8AA1A9);
+        text-align: center;
+
+    }
+
+    .hot-drinks, .cold-drinks{
+        padding: 25px 0px;
+    }
+
+    .menu-item .name{
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .menu-item {
+        margin: 10px 30px;
+    }
+   
+
+    .menu-category .description {
+        text-align: center;
+
+    }
+
+    .information {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+
+    }
+
+    .menu-category .description,
+    .alergens,
+    .price {
+        font-size: 16px;
+        font-weight: 500;
+        font-style: italic;
+    }
+    .menu-item #daily-dessert{
+       padding-left: 35px;
+    }
+
+    .price {
+        font-weight: 800;
+
+    }
+
+    .main-alergens {
+        display: grid;
+        grid-template-columns: auto;
+        font-size: 10px;
+        padding: 10px;
+
+    }
+
+    .drinks {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 0px 10px;
+
+    }
+    #cold-drikns{
+        order:23;
+    }
+
+    .drinks h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .drink-name,
+    .drink-price {
+        font-family: Inter, 'Arial', 'Times New Roman', Times, serif;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .drink-item {
+        padding: 0px 15px;
+    }
+
+    .alcohol {
+        display: grid;
+        grid-template-columns: auto;
+        border-top: 3px solid black;
+        text-align: center;
+    }
+
+    .alcohol h1 {
+        font-size: 25px;
+        border-bottom: 1px solid black;
+
+        padding-top: 15px;
+    }
+
+    .alcohol-name,
+    .alcohol-price {
+        font-family: Inter, 'Arial', 'Times New Roman', Times, serif;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .alcohol-item {
+        padding: 0px 15px;
+    }
+    #one{
+        order:1;
+    }
+    #two{
+        order:2;
+    }
+    #three{
+        order:3;
+    }
+    #four{
+        order:4;
+    }
+    #five{
+        order:5;
+    }
+    #six{
+        order:6;
+    }
+    #seven{
+        order:7;
+    }
+    #eight{
+        order:8;
+    }
+    #nine{
+        order:9;
+    }
+    #ten{
+        order:10;
+    }
+    #eleven{
+        order:11;
+    }
+    #twelve{
+        order:12;
+    }
+    #thirteen{
+        order:13;
+    }
+    #fourteen{
+        order:14;
+    }
+}
